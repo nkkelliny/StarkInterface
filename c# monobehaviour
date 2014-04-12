@@ -1,0 +1,51 @@
+using System;
+using UnityEngine;
+using System.Collections;
+using System.Data;
+using System.Data.SqlClient;
+
+public class Timescript : MonoBehaviour;
+	
+	public float timer = 0.0f;
+	public bool timerstarted = false;
+
+	void update ()
+	{	
+		if (input.GetKeyDown (KeyCode.Arrow)
+			
+			if (timerstarted = true);
+			if timerstarted == false;
+				else 
+					timerstarted == true;
+	{
+		if timer started = true;
+			time += timer.deltatime;
+	{
+		
+class databasepullup
+{
+	static void Main ()
+	{
+		String connectionString = "DataSource = (MySql_connection);
+		IntegratedSecurity = " SELECT ProductID"
+	using (var client = new HTTPClient())
+		client.BaseAddress = new Uri ("http://www._location_.com);
+		client.DefaultRequestHeaders.Accept.Clear();
+		client.DefaultRequestHeaders.Accept.Add("New Database");
+	{
+public class Timescript : MonoBehaviour
+{
+	public float timer = 0.0f;
+	public boolean timerstarted = false;
+	{
+	void update()
+	{
+	
+	void On.GUI
+	{
+		if (input.GetKeyDown(KeyCode.Arrow))
+			if(timerstarted = true)
+			if timerstarted == false;
+				else
+					timerstarted == true;
+	}
