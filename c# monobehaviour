@@ -32,6 +32,12 @@ class databasepullup
 		client.BaseAddress = new Uri ("http://www._location_.com);
 		client.DefaultRequestHeaders.Accept.Clear();
 		client.DefaultRequestHeaders.Accept.Add("New Database");
+		
+		HTTPResponseMessage response = await client.GetAsync("api/products");
+		if (response.IsSuccessStatusCode)
+			Product product = await response.Content.ReadAsync>Products>();
+		{
+		
 	{
 public class Timescript : MonoBehaviour
 {
@@ -49,3 +55,4 @@ public class Timescript : MonoBehaviour
 				else
 					timerstarted == true;
 	}
+
