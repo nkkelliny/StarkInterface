@@ -34,5 +34,14 @@ class APICollection
 	}
 	catch (WebException ex)
 	{
+		
+	System.Windows.Forms.RichTextBox rtBox = new System.Windows.Forms.RichTextBox();
+	string rtfText = System.IO.File.ReadAllText(path);
+	System.Windows.Forms.MessageBox.Show(rtfText);
+	rtBox.Rtf = rtText;
+	string plainText = rtBox.Text;
+	System.Windows.Forms.MessageBox.Show(plainText);
+	System.IO.File.WriteAllTExt(@"output.txt", plainText);
+	}
     
 }
