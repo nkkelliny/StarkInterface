@@ -16,6 +16,7 @@ class APICollection
 	request.ContentType = "application/x-www-form-urlencoded";
 	request.Accept = "application/json";
 	request.ContentLength = data.Length;
+	}
 
 	using (Stream requestStream = request.GetRequestStream())
 	{
