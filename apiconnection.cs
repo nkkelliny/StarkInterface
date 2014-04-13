@@ -6,9 +6,6 @@ class APICollection
 {
 	static void Main ()
 	{
-		String connectionString = "DataSource = (MySql_connection);
-	}
-		AtringQuery = "Select ProductId"
 
 	HTTPWebRequest request = (HttpWebREquest)WebRequest.Create("http://a/uri");
 	request.Method = "Post";
