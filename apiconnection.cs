@@ -1,6 +1,6 @@
 using System;
 using System.Data;
-using System.Data.Oleb;
+using System.Data.OleDb;
 
 class APICollection
 {
