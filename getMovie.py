@@ -31,11 +31,7 @@ def getMovie(movie,info):
     else:
         print ("Movie not found")
 
-    print js
-
 user = raw_input("Enter in the exact movie name: ")
 info = raw_input("What information do you want?")
 info = info.split()
 getMovie(user,info)
-print rtnData
-print movieName + "\n" + img_url
