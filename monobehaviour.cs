@@ -1,8 +1,6 @@
 using System;
 using UnityEngine;
 using System.Collections;
-using System.Data;
-using System.Data.SqlClient;
 
 public class Timescript : MonoBehaviour;
 	
@@ -22,23 +20,7 @@ public class Timescript : MonoBehaviour;
 			time += timer.deltatime;
 	{
 		
-class databasepullup
-{
-	static void Main ()
-	{
-		String connectionString = "DataSource = (MySql_connection);
-		IntegratedSecurity = " SELECT ProductID"
-	using (var client = new HTTPClient())
-		client.BaseAddress = new Uri ("http://www._location_.com);
-		client.DefaultRequestHeaders.Accept.Clear();
-		client.DefaultRequestHeaders.Accept.Add("New Database");
-		
-		HTTPResponseMessage response = await client.GetAsync("api/products");
-		if (response.IsSuccessStatusCode)
-			Product product = await response.Content.ReadAsync>Products>();
-		{
-		
-	{
+
 public class Timescript : MonoBehaviour
 {
 	public float timer = 0.0f;
